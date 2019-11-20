@@ -46,7 +46,7 @@ def get_my_rule (search,rules) :
     if not about == [] :
         print ("\n___Related rules :___\n")
         for i in range (len(about)) : print (about[i])
-
+            
 while True :
     s = ""
     while s == "" : s = input("\n\n\n___Type here the rule (or keyword) you are looking for :___\n\n--> rule ")
